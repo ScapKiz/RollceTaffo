@@ -11,7 +11,7 @@ La parte Rolls-Royce viene da `ricerca.md`; la parte Taffo da fonti giornalistic
 ```
 index.html  style.css  script.js  .nojekyll
 assets/
-  img/campagne/rolls-royce/   fotogrammi del teaser e illustrazione Post Opulence
+  img/campagne/rolls-royce/   fotogrammi del teaser
   img/campagne/taffo/         annunci Taffo e mascotte Tanuba
   img/ai/                     illustrazioni della sezione teorica (SVG)
   img/grafiche/               favicon
@@ -54,7 +54,6 @@ ricarica il sito con Ctrl+F5.
 ## Crediti
 
 - Fotogrammi del teaser Ghost: © Rolls-Royce Motor Cars / Imagination / Cath Elliott
-- Illustrazione Post Opulence: © Rolls-Royce Motor Cars (PressClub, uso editoriale)
 - Annunci Taffo: © Taffo Funeral Services; immagini pubblicate da Open (2019)
 - Mascotte Tanuba: © Taffo / Tanuba Funeral Services, sito ufficiale
 - Video: incorporato da Vimeo (Cath Elliott)

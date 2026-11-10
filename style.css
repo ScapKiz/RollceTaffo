@@ -370,6 +370,7 @@ body.is-present .fig2 img{height:auto;width:100%}
 .tf-street p{font-size:1.1rem;color:var(--gg-bg)}
 .tf-street .tf-src{font-size:.875rem;margin-top:.75rem;color:#C9C6C0}
 .gg-irony-list p:nth-child(6){grid-column:span 6;--t:rotate(-.4deg)}
+.tf .gg-brand-grid>.tf-origin{grid-column:1/8}
 .tf-end{display:grid;grid-template-columns:7fr 4fr;gap:clamp(1.5rem,4vw,5rem);align-items:end}
 .tf-end>div{font-size:1.2rem}
 
@@ -525,6 +526,10 @@ body.is-present .axes-fig svg{height:50vh}
 body.is-present .vs-fabric{height:9vh;margin-top:.5rem}
 body.is-present .vs-axes-text{margin-top:1rem}
 
+body.is-present .tf .gg-brand-grid>figure:nth-of-type(1){grid-column:9/13;grid-row:1/3}
+body.is-present .tf .gg-brand-grid>figure:nth-of-type(1) img{height:60vh;object-fit:contain}
+body.is-present .tf .gg-brand-grid>.tf-origin{grid-column:1/8;grid-row:2}
+
 /* ---------- INGRANDIMENTO ---------- */
 .lb{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;border:0;padding:0;background:#080809;color:#F3F1EC;overflow:hidden}
 .lb[open]{display:grid;grid-template:1fr auto/auto 1fr auto;animation:slideFade .35s ease}
@@ -598,6 +603,7 @@ body.is-present .vs-axes-text{margin-top:1rem}
   .tf-wall{grid-template-columns:1fr 1fr}
   .tf-wall figure:nth-child(even){margin-top:1.5rem}
   .tf .gg-brand-grid>figure:nth-of-type(1){grid-column:1/-1}
+  .tf .gg-brand-grid>.tf-origin{grid-column:1/-1}
   .gg-star-a{top:clamp(9rem,40vw,14rem)}
   .vs-title{grid-template-columns:1fr 1fr}
   .vs-word{font-size:19vw}
