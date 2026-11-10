@@ -182,14 +182,17 @@ figcaption{font-size:.875rem;line-height:1.4;margin-top:.6rem}
 /* Teoria in forma breve */
 .basics,.figs2{display:grid;gap:clamp(1rem,2vw,2.5rem)}
 .basics{grid-template-columns:repeat(4,1fr)}
-.figs2{grid-template-columns:repeat(4,1fr)}
+.figs2{grid-template-columns:repeat(7,minmax(0,1fr));gap:clamp(.75rem,1.2vw,1.5rem)}
+.fig2{padding:.55rem .55rem .8rem}
+.fig2 h3{hyphens:auto;overflow-wrap:break-word;font-size:1.35rem!important;margin:.55rem 0 .25rem!important}
+.fig2 p{font-size:.9375rem!important;line-height:1.4!important}
 .basic,.fig2{background:var(--th-card);padding:.8rem .8rem 1.1rem}
 .basic img,.fig2 img{aspect-ratio:4/3;object-fit:cover}
 .basic h3,.fig2 h3{font:400 1.75rem/1.1 var(--serif);margin:.8rem 0 .35rem}
 .basic p,.fig2 p{font-size:1.05rem;line-height:1.45}
 .basic em{font-style:italic;color:var(--th-champ)}
 body.is-present .basic img{height:auto;width:100%;max-height:34vh;object-fit:contain}
-body.is-present .fig2 img{height:19vh;width:100%}
+body.is-present .fig2 img{height:auto;width:100%}
 
 /* ---------- ROLLS-ROYCE ---------- */
 .rr{background:var(--rr-bg);color:var(--rr-text);--d-mult:1}
@@ -550,6 +553,7 @@ body.is-present .vs-axes-text{margin-top:1rem}
   .nav[data-theme=neutral] .nav-links{background:var(--th-bg)}
 }
 @media (max-width:1100px){
+  .figs2{grid-template-columns:repeat(4,minmax(0,1fr))}
   .intro-grid{grid-template-columns:1fr 1fr}
   .intro-text{grid-column:1/-1}
   .world-sub{width:min(46vw,30rem);font-size:1.5rem}
