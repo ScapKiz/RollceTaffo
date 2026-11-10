@@ -178,6 +178,19 @@ figcaption{font-size:.875rem;line-height:1.4;margin-top:.6rem}
 .def:hover,.def.on{background:#D8C3A5;transform:translateX(6px)}
 .pull{font:300 clamp(1.9rem,2.9vw,3.8rem)/1.12 var(--serif);max-width:32em;margin-top:clamp(2rem,4vw,4rem)}
 
+
+/* Teoria in forma breve */
+.basics,.figs2{display:grid;gap:clamp(1rem,2vw,2.5rem)}
+.basics{grid-template-columns:repeat(4,1fr)}
+.figs2{grid-template-columns:repeat(4,1fr)}
+.basic,.fig2{background:var(--th-card);padding:.8rem .8rem 1.1rem}
+.basic img,.fig2 img{aspect-ratio:4/3;object-fit:cover}
+.basic h3,.fig2 h3{font:400 1.75rem/1.1 var(--serif);margin:.8rem 0 .35rem}
+.basic p,.fig2 p{font-size:1.05rem;line-height:1.45}
+.basic em{font-style:italic;color:var(--th-champ)}
+body.is-present .basic img{height:auto;width:100%;max-height:34vh;object-fit:contain}
+body.is-present .fig2 img{height:19vh;width:100%}
+
 /* ---------- ROLLS-ROYCE ---------- */
 .rr{background:var(--rr-bg);color:var(--rr-text);--d-mult:1}
 .rr .panel{padding-block:clamp(4rem,6.5vw,9rem)}
@@ -574,6 +587,9 @@ body.is-present .vs-axes-text{margin-top:1rem}
   .gg-end-grid figure,.gg-end-grid>div,.gg-quote{grid-column:1;grid-row:auto}
   .gg-irony-list{grid-template-columns:1fr}
   .gg-irony-list p:nth-child(n){grid-column:auto}
+  .basics,.figs2{grid-template-columns:1fr 1fr}
+  .basic h3,.fig2 h3{font-size:1.4rem}
+  .basic p,.fig2 p{font-size:.9375rem}
   .tf-case,.tf-end,.tf-street{grid-template-columns:1fr}
   .tf-wall{grid-template-columns:1fr 1fr}
   .tf-wall figure:nth-child(even){margin-top:1.5rem}
